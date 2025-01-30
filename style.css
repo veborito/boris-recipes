@@ -1,0 +1,53 @@
+body {
+    font-family: "Optima", Tahoma, Verdana, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    background-color: rgb(58, 190, 113);
+    color: white;
+    font-size: 36px;
+}
+
+ul {
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+}
+
+#pancakes {
+    background-color: rgb(254, 163, 17, 0.8);
+}
+
+#ramen {
+    background-color: rgb(98, 169, 234);
+}
+
+#shrimp {
+    background-color: rgba(255, 129, 169, 0.8);
+}
+.recipe {
+    background-color: bisque;
+    color:black;
+    font-size: 24px;
+}
+
+p.recipe {
+    text-align: center;
+    font-size: 20px;
+}
+
+img {
+    height: auto;
+    width: 800px;
+}
+
+.home-button {
+    font-size: 30px;
+    background-color: hsl(142, 100%, 19%);
+    color: white;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 550;
+}
