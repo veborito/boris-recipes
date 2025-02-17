@@ -8,6 +8,7 @@ html {
 
 body {
   font-family: "Optima", Tahoma, Verdana, sans-serif;
+  background-color: rgb(120, 199, 145);
 }
 
 h1 {
@@ -31,7 +32,7 @@ ul {
 }
 
 #shrimp {
-  background-color: rgba(255, 129, 169, 0.8);
+  background-color: rgb(255, 129, 169, 0.8);
 }
 .recipe {
   background-color: bisque;
@@ -61,14 +62,33 @@ h2 {
 }
 
 div {
-    height: 100px;
-    width: 400px;
+    height: 200px;
+    width: 600px;
     text-align: center;
-    padding: 40px;
+    padding: 87.5px;
     margin: 100px auto;
+    font-size: 35px;
 }
 
 div.prot {
-    background-color: rgba(254, 163, 17, 0.8);
+    background-color: rgb(254, 163, 17, 0.8);
 }
 
+div.ramen {
+    background-color: rgb(98, 169, 234);
+
+}
+
+div.shrimp {
+    background-color:  rgb(255, 129, 169, 0.8);
+}
+
+a, a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: hotpink;
+    text-decoration: none;
+}
