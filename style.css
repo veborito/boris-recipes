@@ -12,10 +12,9 @@ body {
 }
 
 h1 {
-  text-align: center;
-  background-color: rgb(58, 190, 113);
-  color: white;
-  font-size: 36px;
+    text-align: center;
+    color: white;
+    font-size: 35px;
 }
 
 ul {
@@ -62,28 +61,38 @@ h2 {
 }
 
 div {
+    height: 1000px;
+    width: 50%;
+    background-color: rgb(58, 190, 113);
+    margin: 50px auto;
+    padding: 10px;
+}
+
+a {
+    display: block;
     height: 200px;
     width: 600px;
     text-align: center;
-    padding: 87.5px;
+    padding: 77.5px;
     margin: 100px auto;
     font-size: 35px;
 }
 
-div.prot {
+a#prot {
     background-color: rgb(254, 163, 17, 0.8);
+    margin-top: 50px;
 }
 
-div.ramen {
+a#ramen {
     background-color: rgb(98, 169, 234);
 
 }
 
-div.shrimp {
+a#shrimp {
     background-color:  rgb(255, 129, 169, 0.8);
 }
 
-a, a:visited {
+a:link, a:visited {
     color: white;
     text-decoration: none;
 }
